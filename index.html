@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV/Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <aside>
+    <!-- https://bslthemes.com/html/matecard/theme_colors/default/index.html-->
+    <header>
+      <img src="img/logan.png" alt="Profile Photo" width="100%">
+      <h1>Logan Silvers</h1>
+      <p>Chicago, IL</p>
+      <a href="https://www.linkedin.com/in/loganrsilvers/" target="_blank">
+        <i class="fa fa-linkedin-square" style="font-size:36px"></i>
+      </a>
+      <a href="https://github.com/loganrsilvers" target="_blank">
+        <i class="fa fa-github" style="font-size:36px"></i>
+      </a>
+      <a href="">
+        <i class="fa fa-behance" style="font-size:36px"></i>
+
+      </a>
+      <a href="">
+        <i class="fa fa-pinterest" style="font-size:36px"></i>
+      </a>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <footer>
+      <small>&copy; 2025 Logan Silvers</small>
+    </footer>
+  </aside>
+
+  <nav id="mobile-navbar">
+    <button id="menu-toggle" aria-label="Menu">&#9776;</button>
+    <span>Logan Silvers</span>
+    <div id="mobile-menu">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Short intro about yourself goes here.</p>
+    </section>
+    <section id="experience">
+      <h2>Experience</h2>
+      <p>Details about your work experience.</p>
+    </section>
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <p>Some project highlights.</p>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <form>
+        <label>Name <input type="text" required></label>
+        <label>Email <input type="email" required></label>
+        <label>Message <textarea required></textarea></label>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
