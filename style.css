@@ -21,11 +21,16 @@ html, body {
 
 body {
   display: flex;
-  min-height: 100vh;
 }
-
+#container {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+}
 aside {
   width: 25%;
+  position: fixed;
+  height: 100%;
   background: var(--aside-bg);
   color: var(--text-light);
   display: flex;
@@ -149,8 +154,8 @@ aside footer {
 }
 
 main {
+  margin-left: 25%;
   width: 75%;
-  margin-left: 0;
   padding: 32px;
   box-sizing: border-box;
   display: flex;
