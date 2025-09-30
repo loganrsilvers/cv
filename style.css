@@ -77,6 +77,10 @@ aside nav ul li a:hover {
   background: var(--primary);
 }
 
+section li {
+  text-transform: lowercase;
+}
+
 aside footer {
   margin-top: auto;
   font-size: 14px;
