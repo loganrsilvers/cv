@@ -10,7 +10,6 @@
 <body>
   <div id="container">
   <aside>
-    <!-- https://bslthemes.com/html/matecard/theme_colors/default/index.html-->
     <header>
       <img src="img/logan.png" alt="Profile Photo" width="100%">
       <h1>Logan Silvers</h1>
@@ -21,20 +20,9 @@
       <a href="https://github.com/loganrsilvers" target="_blank">
         <i class="fa fa-github" style="font-size:36px"></i>
       </a>
-      <a href="">
-        <i class="fa fa-behance" style="font-size:36px"></i>
-
-      </a>
-      <a href="">
-        <i class="fa fa-pinterest" style="font-size:36px"></i>
-      </a>
     </header>
     <nav>
       <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#portfolio">Work Examples</a></li>
-        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
     <footer>
@@ -42,29 +30,12 @@
     </footer>
   </aside>
 
-  <nav id="mobile-navbar">
-    <button id="menu-toggle" aria-label="Menu">&#9776;</button>
-    <span>Logan Silvers</span>
-    <div id="mobile-menu">
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#portfolio">Work Examples</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-
   <main>
     <section id="about">
       <h2>About Me</h2>
       <p>
-        I am a Junior at Columbia College Chicago, it's a small art school downtown with a small 20-person programming department. I am currently in the Programming BA, but if they offered a Web Dev Degree I would be in that. I have been programming for about 5 years, and I have been working on web development for about 3 years. I am currently looking for a position that can combine my love of web development with my interest in early child development or teen education.
-      </p>
-    </section>
+        I am a Junior at Columbia College Chicago, it's a small art school downtown with a small 20-person programming department. I am currently in the Programming BA, but if they offered a Web Dev Degree I would be in that. I have been programming for about 5 years, and I have been working on web development for about 3 years. I am ready to work and I am looking for a position that can propel me straight into the heart of internshipmania.
 
-
-    <section id="experience">
       <h2>Education</h2>
       <ul>
         <li>
@@ -121,21 +92,12 @@
       </ul>
     </section>
 
-
-    <section id="portfolio">
-      <h2>Work Examples</h2>
-      <a href="https://webdevclub.github.io/webdevclub.io/">https://webdevclub.github.io/webdevclub.io/</a>
-      <a href="wornoutproject.com">wornoutproject.com</a>
-      <a href="https://loganrsilvers.github.io/web2/assignment4/index.html">https://loganrsilvers.github.io/web2/assignment4/index.html</a>
-      <a href="https://github.com/ketchupmaster987/Galaxypets?tab=readme-ov-file">https://github.com/ketchupmaster987/Galaxypets?tab=readme-ov-file</a>
-
-    </section>
     <section id="contact">
       <h2>Contact</h2>
-      <form>
-        <label>Name <input type="text" required></label>
-        <label>Email <input type="email" required></label>
-        <label>Message <textarea required></textarea></label>
+      <form action="thing.php" method="POST">
+        <label>Name <input type="text" name="fullName" required></label>
+        <label>Email <input type="email" name="email" required></label>
+        <label>Message <textarea name="message" required></textarea></label>
         <button type="submit">Send</button>
       </form>
     </section>
